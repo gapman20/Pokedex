@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif; /* Fuente de letra */
+}
+
+body{
+    background-image: url(/proyectos_personales/proyecto2/img/pokemon-pokemon-ruby-and-sapphire-wallpaper-preview.jpg); /* Imagen de fondo */
+    background-repeat: no-repeat;  /* No se repite la imagen de fondo */
+    background-position: center center; /* Centro la imagen de fondo */
+    background-attachment: fixed; /* Se queda fija la imagen de fondo */ 
+    background-size: cover; /* La imagne de fondo cubre toda la pagina */
+}
+
+.poke-img{
+    width: 500px;
+    display: block;margin: 0 auto 0 auto; /* Se centra la imagen */
+}
+
+.title{
+    font-size: 50px;
+    color: black; 
+    margin-left: 25px;
+}
+
+.navegacion{
+    font-size: 30px;
+    margin: 2%;
+    padding: 1%;
+}
+
+.cuerpo{
+    margin: 10px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.subtitle{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+.resumen{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+
+
+#pa1{
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*  table,th,td{
+
+    table-layout: fixed;
+    border: 1px solid;
+    font-size: 25px;
+    text-align: center;
+
+}  */
+
+
+
+ table{
+    
+    table-layout: fixed;
+    width: 510px;  
+    border: 1px solid;
+    
+}
+
+th,td{
+
+    border: 1px solid;
+    font-size: 25px;
+    text-align: center; 
+    word-wrap: break-word; /* corta el texto para que quede bien en la tabla */
+
+    
+} 
+
+img{
+    width: 100px;
+    object-fit: cover; /* hace que la imagen no se distorcione */
+}
+
+.enlace{
+    text-decoration: none;
+}
